@@ -70,7 +70,7 @@ if [ -d "Mc-Panel-v1" ]; then
     log_warn "Directory 'Mc-Panel-v1' already exists. Removing older instance..."
     rm -rf Mc-Panel-v1
 fi
-git clone https://github.com
+git clone https://github.com/startzpranjal/Mc-Panel-v1.git
 
 log_info "Navigating into directory and unpacking content..."
 cd Mc-Panel-v1
